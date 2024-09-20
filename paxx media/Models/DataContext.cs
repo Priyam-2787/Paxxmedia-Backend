@@ -11,6 +11,7 @@ namespace paxx_media.Models
         // DbSet properties map models to tables in the database
 
         public DbSet<User> Users { get; set; }
+        public DbSet<Review> Reviews { get; set; }
 
     }
 }
